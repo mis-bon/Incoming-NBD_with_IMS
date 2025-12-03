@@ -58,7 +58,7 @@ const App: React.FC = () => {
       <div className="animated-gradient fixed inset-0 z-[-2]"></div>
       
       {/* Animated Shapes Background - change color slightly based on view */}
-      <AnimatedBackground shapeColor={currentView === 'INVENTORY' ? 'rgba(216, 180, 254, 0.08)' : undefined} />
+      <AnimatedBackground shapeColor={currentView === 'INVENTORY' ? 'rgba(96, 165, 250, 0.08)' : undefined} />
 
       {/* Main Content */}
       <main className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col flex-grow overflow-hidden">
