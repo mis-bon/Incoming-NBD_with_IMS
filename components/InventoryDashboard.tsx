@@ -22,14 +22,14 @@ const InventoryDashboard: React.FC<InventoryDashboardProps> = ({ data, loading, 
     );
   }
 
-  // Theme styling constants for Inventory View (Purple/Fuchsia)
-  const containerBorder = "border-fuchsia-600";
-  const containerShadow = "shadow-[0_0_25px_rgba(216,180,254,0.15)]";
-  const headerBg = "bg-fuchsia-700"; 
-  const cellBorder = "border-fuchsia-600";
+  // Theme styling constants for Inventory View (Blue)
+  const containerBorder = "border-blue-600";
+  const containerShadow = "shadow-[0_0_25px_rgba(59,130,246,0.15)]";
+  const headerBg = "bg-blue-700"; 
+  const cellBorder = "border-blue-600";
   const headerText = "text-white";
-  const rowHover = "hover:bg-fuchsia-500/20";
-  const textHighlight = "group-hover:text-fuchsia-200";
+  const rowHover = "hover:bg-blue-500/20";
+  const textHighlight = "group-hover:text-blue-200";
   
   // Reduced padding for row height
   const cellPadding = "p-2";
