@@ -95,7 +95,7 @@ export const Header: React.FC<HeaderProps> = ({ view, stats, isLive, onToggleVie
                 </span>
               </>
             ) : (
-               <span className="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-400 to-purple-500">
+               <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-indigo-500">
                  Inventory Status
                </span>
             )}
@@ -132,7 +132,7 @@ export const Header: React.FC<HeaderProps> = ({ view, stats, isLive, onToggleVie
                     stroke="currentColor" 
                     strokeWidth="3" 
                     strokeLinecap="round"
-                    className={`${isNBD ? 'text-cyan-400' : 'text-fuchsia-400'} transition-all duration-1000 linear`}
+                    className={`${isNBD ? 'text-cyan-400' : 'text-blue-400'} transition-all duration-1000 linear`}
                     strokeDasharray={circumference} 
                     strokeDashoffset={circumference * (1 - progress)}
                 />
@@ -183,16 +183,16 @@ export const Header: React.FC<HeaderProps> = ({ view, stats, isLive, onToggleVie
                 <StatCard 
                   title="Total Items"
                   value={stats.totalStock?.toLocaleString() ?? '0'}
-                  gradient="bg-gradient-to-r from-violet-400 to-purple-500"
-                  borderColor="border-violet-400"
-                  shadowColor="shadow-[0_0_20px_theme(colors.violet.500/0.4)]"
+                  gradient="bg-gradient-to-r from-blue-400 to-cyan-500"
+                  borderColor="border-blue-400"
+                  shadowColor="shadow-[0_0_20px_theme(colors.blue.500/0.4)]"
                 />
                 <StatCard 
                   title="Total Sold"
                   value={stats.totalSold?.toLocaleString() ?? '0'}
-                  gradient="bg-gradient-to-r from-pink-400 to-rose-500"
-                  borderColor="border-pink-400"
-                  shadowColor="shadow-[0_0_20px_theme(colors.pink.500/0.4)]"
+                  gradient="bg-gradient-to-r from-indigo-400 to-violet-500"
+                  borderColor="border-indigo-400"
+                  shadowColor="shadow-[0_0_20px_theme(colors.indigo.500/0.4)]"
                 />
               </>
             )}
