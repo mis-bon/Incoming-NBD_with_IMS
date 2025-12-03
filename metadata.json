@@ -1,0 +1,5 @@
+{
+  "name": "Incoming-NBD Report",
+  "description": "A beautiful, animated web dashboard that shows live data from a Google Sheet, styled with a modern glassmorphism effect and glowing cards.",
+  "requestFramePermissions": []
+}
