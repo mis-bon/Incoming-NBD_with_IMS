@@ -150,8 +150,8 @@ export const Header: React.FC<HeaderProps> = ({ view, stats, isLive, onToggleVie
             </button>
         </div>
         
-        <div className="mt-1 px-1.5 py-0.5 rounded-md bg-black/40 border border-white/5 backdrop-blur-sm min-w-[3rem] flex justify-center">
-            <span className="text-[10px] font-mono font-medium text-cyan-200/80 tracking-widest leading-none">
+        <div className="mt-1 px-2 py-0.5 rounded-md bg-black/50 border border-white/10 backdrop-blur-md min-w-[3.5rem] flex justify-center shadow-lg">
+            <span className="text-xs font-sans font-bold tabular-nums text-white tracking-widest leading-none drop-shadow-md">
                 {timeLeft}
             </span>
         </div>
