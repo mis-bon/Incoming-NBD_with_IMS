@@ -8,8 +8,8 @@ import { useInventoryData } from './hooks/useInventoryData';
 
 type ViewType = 'NBD' | 'INVENTORY';
 
-// 2 minutes in milliseconds
-const SWITCH_INTERVAL = 120000; 
+// 30 seconds in milliseconds
+const SWITCH_INTERVAL = 30000; 
 
 const App: React.FC = () => {
   const [currentView, setCurrentView] = useState<ViewType>('NBD');
